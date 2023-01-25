@@ -3,6 +3,49 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1{
-
+h1, h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40pt;
 }
+
+h2{
+    font-size: 20pt;
+}
+
+#car{
+    width: 100px;
+    height: 50px;
+}
+
+.typeBox{
+    background-color: white;
+    border: solid black 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+.typeBox>*{
+    margin: 50px;
+    font-size: 20pt;
+}
+
+#WPM{
+    text-align: center;
+    float: right;
+}
+
+#quoteToType{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    word-wrap: break-word;
+}
+
+#carNWords{
+    border-bottom: dotted orange 6px;
+}
+
